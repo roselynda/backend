@@ -1,0 +1,10 @@
+= simple_form_for(@contributor) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :user_id
+    = f.input :design_id
+    = f.input :owner
+
+  .form-actions
+    = f.button :submit

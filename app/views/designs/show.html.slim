@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @design.name
+p
+  strong Json:
+  = @design.json
+p
+  strong Updated by:
+  = @design.updated_by
+
+= link_to 'Edit', edit_design_path(@design)
+'|
+= link_to 'Back', designs_path

@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dyjblavbq
+  api_key: '415885355798887'
+  api_secret: "-8XyCip2EN1TkBB6dL8q1cFs1oI"
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dyjblavbq
+  api_key: '415885355798887'
+  api_secret: "-8XyCip2EN1TkBB6dL8q1cFs1oI"
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dyjblavbq
+  api_key: '415885355798887'
+  api_secret: "-8XyCip2EN1TkBB6dL8q1cFs1oI"
+  enhance_image_tag: true
+  static_image_support: false

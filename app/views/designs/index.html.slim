@@ -1,0 +1,25 @@
+h1 Listing designs
+
+table
+  thead
+    tr
+      th Name
+      th Json
+      th Updated by
+      th
+      th
+      th
+
+  tbody
+    - @designs.each do |design|
+      tr
+        td = design.name
+        td = design.json
+        td = design.updated_by
+        td = link_to 'Show', design
+        td = link_to 'Edit', edit_design_path(design)
+        td = link_to 'Destroy', design, data: {:confirm => 'Are you sure?'}, :method => :delete
+
+br
+
+= link_to 'New Design', new_design_path

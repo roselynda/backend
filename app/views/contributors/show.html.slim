@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong User:
+  = @contributor.user_id
+p
+  strong Design:
+  = @contributor.design_id
+p
+  strong Owner:
+  = @contributor.owner
+
+= link_to 'Edit', edit_contributor_path(@contributor)
+'|
+= link_to 'Back', contributors_path
